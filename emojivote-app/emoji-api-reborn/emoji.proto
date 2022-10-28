@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package emojiPackage;
+
+message Empty {}
+
+message Emojis {
+  message Emoji {
+    string emoji_id = 1;
+    string emoji = 2;
+    string description = 3;
+    int32 vote_count = 4;
+  }
+  repeated Emoji emojis = 1;
+}
+
+message Votes {
+  message Vote {
+    int32 emoji_id = 1;
+    int32 vote_quantity = 2;
+  }
+  repeated Vote votes = 1;
+}
+
+message Voted {
+  string emoji_id = 1;
+}
+
+message Success {
+  string result = 1;
+  Voted voted = 2;
+}
+
+service EmojiService {
+  rpc readEmojis(Empty) returns (Emojis);
+  rpc readVotes(Empty) returns (Votes);
+  rpc createVote(Voted) returns (Success);
+}

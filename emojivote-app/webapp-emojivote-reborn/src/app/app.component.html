@@ -1,0 +1,40 @@
+<mat-toolbar color="primary">
+  <span>Emoji Vote App</span>
+</mat-toolbar>
+<div class="panel">
+  <span class="title"><h1>Vota por tu emoji favorito</h1></span>
+  <mat-divider></mat-divider>
+  <div class="panel">
+    <mat-grid-list [cols]="breakpoint" rowHeight="90px">
+      <mat-grid-tile *ngFor="let emoji of emojis; let i = index">
+        <button [title]="emoji.description" (click)="onVote(emoji)" class="emoji" [ngStyle]="{'background-color': colors[i]}" mat-fab color="accent"
+          aria-label="Example icon button with a bookmark icon">
+          {{ emoji?.emoji }}
+        </button>
+      </mat-grid-tile>
+
+    </mat-grid-list>
+  </div>
+</div>
+
+<div class="panel">
+  <span class="title"><h1>Votos actuales</h1></span>
+  <mat-divider></mat-divider>
+  <div class="panel" *ngFor="let vote of votes; let i = index">
+    <mat-card>
+      <mat-grid-list cols="3" rowHeight="70px">
+        <mat-grid-tile>
+          <button class="emoji" mat-fab [ngStyle]="{'background-color': colors[i]}" aria-label="Example icon button with a home icon">
+            {{ vote.emoji }}
+          </button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-icon>arrow_forward_ios</mat-icon>
+        </mat-grid-tile>
+        <mat-grid-tile style="font-size: 30px">
+          {{ vote?.vote_count }}
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+  </div>
+</div>
