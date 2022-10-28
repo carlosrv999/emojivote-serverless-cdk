@@ -1,0 +1,364 @@
+{
+  "emoji": [
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🥶"
+          },
+          "description": {
+            "S": "Cold face"
+          },
+          "emoji_id": {
+            "S": "emoji_006"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "💀"
+          },
+          "description": {
+            "S": "Skull"
+          },
+          "emoji_id": {
+            "S": "emoji_009"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "♠"
+          },
+          "description": {
+            "S": "Spade suit"
+          },
+          "emoji_id": {
+            "S": "emoji_020"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🍭"
+          },
+          "description": {
+            "S": "Lollipop"
+          },
+          "emoji_id": {
+            "S": "emoji_016"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "😍"
+          },
+          "description": {
+            "S": "Smiling face with heart eyes"
+          },
+          "emoji_id": {
+            "S": "emoji_003"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "😘"
+          },
+          "description": {
+            "S": "Face blowing kiss"
+          },
+          "emoji_id": {
+            "S": "emoji_004"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🧋"
+          },
+          "description": {
+            "S": "Bubble tea"
+          },
+          "emoji_id": {
+            "S": "emoji_018"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🥳"
+          },
+          "description": {
+            "S": "Partying face"
+          },
+          "emoji_id": {
+            "S": "emoji_002"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "💙"
+          },
+          "description": {
+            "S": "Blue heart"
+          },
+          "emoji_id": {
+            "S": "emoji_013"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "😳"
+          },
+          "description": {
+            "S": "Flushed face"
+          },
+          "emoji_id": {
+            "S": "emoji_007"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🥑"
+          },
+          "description": {
+            "S": "Avocado"
+          },
+          "emoji_id": {
+            "S": "emoji_014"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🙂"
+          },
+          "description": {
+            "S": "Slightly smiling face"
+          },
+          "emoji_id": {
+            "S": "emoji_001"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "☠"
+          },
+          "description": {
+            "S": "Skull and cross-bone"
+          },
+          "emoji_id": {
+            "S": "emoji_010"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🤫"
+          },
+          "description": {
+            "S": "Shushing face"
+          },
+          "emoji_id": {
+            "S": "emoji_005"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🎲"
+          },
+          "description": {
+            "S": "Game die"
+          },
+          "emoji_id": {
+            "S": "emoji_019"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🥩"
+          },
+          "description": {
+            "S": "Cut of meat"
+          },
+          "emoji_id": {
+            "S": "emoji_015"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "🍸"
+          },
+          "description": {
+            "S": "Cocktail glass"
+          },
+          "emoji_id": {
+            "S": "emoji_017"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "😢"
+          },
+          "description": {
+            "S": "Crying face"
+          },
+          "emoji_id": {
+            "S": "emoji_008"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "😾"
+          },
+          "description": {
+            "S": "Pouting cat"
+          },
+          "emoji_id": {
+            "S": "emoji_011"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "emoji": {
+            "S": "💗"
+          },
+          "description": {
+            "S": "Growing heart"
+          },
+          "emoji_id": {
+            "S": "emoji_012"
+          },
+          "vote_count": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  ]
+}
