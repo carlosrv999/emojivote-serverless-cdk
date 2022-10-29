@@ -1,3 +1,4 @@
+import { RemovalPolicy } from "aws-cdk-lib";
 import { AttributeType, ITable, Table } from "aws-cdk-lib/aws-dynamodb";
 import { AwsCustomResource, AwsCustomResourcePolicy, PhysicalResourceId } from "aws-cdk-lib/custom-resources";
 import { Construct } from "constructs";
@@ -12,6 +13,7 @@ export class Database extends Construct {
     this.table = new Table(this, 'Table', {
       partitionKey: { name: 'emoji_id', type: AttributeType.STRING },
       tableName: "emoji",
+      removalPolicy: RemovalPolicy.DESTROY,
     });
 
     new AwsCustomResource(this, 'initDbResource', {

@@ -1,6 +1,8 @@
 import * as cdk from 'aws-cdk-lib';
 import { ManagedPolicy, PolicyStatement } from 'aws-cdk-lib/aws-iam';
+import { DnsRecordType } from 'aws-cdk-lib/aws-servicediscovery';
 import { Construct } from 'constructs';
+import { CloudMapService } from '../src/cloud-map';
 import { Database } from '../src/dynamo-db';
 import { FargateContainers } from '../src/ecs-service';
 import { EmojiAppContainer } from '../src/images';
